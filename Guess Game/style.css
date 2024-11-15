@@ -1,0 +1,11 @@
+.links{
+    display: flex;
+    text-align: center;
+    margin: auto;
+    width: 30%;
+}
+.links a{
+    margin: auto;
+    text-decoration: none;
+    color: black;
+}

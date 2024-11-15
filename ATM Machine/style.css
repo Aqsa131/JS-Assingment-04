@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    scroll-behavior: smooth;
+
+}
+.logo{
+    max-width: 20%;
+    /* height: auto; */
+}
+.headImg{
+    max-width: 5%;
+    height: auto;
+}
+.proceed{
+    width: 135px;
+    height: 47px;
+}

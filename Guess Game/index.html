@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div style="margin: auto; text-align: center;">
+        <h2>GUESS GAME</h2>
+        <h4>Hey User! Welcome to the Guess Game, Lets Begin</h4>
+        <h5>Choose the Level Below</h5>
+        <div class="links">
+            <a onclick="easy()" href="javascript:void(0)">
+                <h4 style="color: rgb(10, 165, 10);">EASY</h4>
+            </a>
+            <a onclick="med()" href="javascript:void(0)">
+                <h4 style="color: rgb(235, 235, 11);">MEDIUM</h4>
+            </a>
+            <a onclick="hard()" href="javascript:void(0)">
+                <h4 style="color: red;">HARD</h4>
+            </a>
+
+        </div>
+
+        <input id="field" type="text">
+        <button id="check" onclick="checkEasy()">CHECK</button>
+        <h4 id="userGuess">Your Guess Number :</h4>
+        <h4 id="correctGuess">Correct Guess Number :</h4>
+        <h4 id="result">Remarks :</h4>
+        <h4>Your Attempts :</h4>
+
+
+        
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
